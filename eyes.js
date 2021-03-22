@@ -1,5 +1,6 @@
 var balls = document.getElementsByClassName("ball");
 
+// track the mouse pointer movement
 document.onmousemove = () => {
   var x = (event.clientX * 100) / window.innerWidth + "%";
   var y = (event.clientY * 100) / window.innerHeight + "%";
